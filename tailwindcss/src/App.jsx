@@ -1,7 +1,11 @@
-import React from "react";
-
+// pages
+import CircularProgressBar from "./pages/CircularProgressBar";
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div className="w-screen h-screen flex items-center justify-center">
+      <CircularProgressBar />
+    </div>
+  );
 };
 
 export default App;
